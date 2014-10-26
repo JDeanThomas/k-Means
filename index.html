@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>k-Means Clustering Analysis on US Arrests Data (ISLR)</title>
+  <meta charset="utf-8">
+  <meta name="description" content="k-Means Clustering Analysis on US Arrests Data (ISLR)">
+  <meta name="author" content="Jason Thomas">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>k-Means Clustering Analysis on US Arrests Data (ISLR)</h1>
+    <h2>Shiny app documentation</h2>
+    <p>Jason Thomas<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>k-Means CLustering Analysis</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The Data set USArrests from the ISLR package is used for a simple k-Mean Cluster Analysis</li>
+<li>The data is taken from examples used for k-Means luster analysis in 
+Introduction to statistical Learning with R</li>
+<li>There are 5 variables 1) Number of Murders (Murders) 2) Number of Assualts (Assults) 
+3) numbers of rapes (rapes) all pr 100,000 residents in all 50 states in 1973 
+as well as 4) the percent of the population living in urban areas</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Starting App</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>Starting The App: <br/>
+<img alt="Starting App" src="assets/img/1.png" height="300px"/></p></li>
+<li><p>Simply chose a variable for the X axis (UrbanPop is the ideal X variable) 
+and a veriable for the Y Axis</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Compare variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Compare variables to find clusters: <br/>
+<img alt="Urban Population vs Assault" src="assets/img/2.png" height="300px"></img></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Compare different Y variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Compare other variables to find clusters: <br/>
+<img alt="Urban Population vs Murders" src="assets/img/3.png" height="300px"></img></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Vary the number of clusters</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Finally, chose difernt cluster sizes to find the best fit: <br/>
+<img alt="Urban Population vs Assault" src="assets/img/4.png" height="300px"></img></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <article data-timings="">
+    <p>#That&#39;s all</p>
+
+<ul>
+<li>That&#39;s all their is to it! </li>
+<li>Data and examples from Introduction to Statistical Learning with R. 
+Data taken from the ISLR Package. <a href="http://www-bcf.usc.edu/%7Egareth/ISL/">http://www-bcf.usc.edu/~gareth/ISL/</a></li>
+<li>The data documentation can be found at
+<a href="http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/USArrests.html">http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/USArrests.html</a></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='k-Means CLustering Analysis'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Starting App'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Compare variables'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Compare different Y variables'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Vary the number of clusters'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title=''>
+         6
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
